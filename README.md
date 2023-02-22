@@ -1,31 +1,15 @@
-# React
+# React End to End project
 
-This repository contains resources (including exemplars, instructions, and starter code) for the **React** week.
+This is the completed version of the React end to end project trainers will build with their students. 
 
-## Set-up
+**IMPORTANT NOTE** - please note that this is the version you will have completed with the students during the workshop. It **DOESN'T** include the filtering functionality, as this will be a task for students. If you would like to see the fully finished version with the extensions, please go to the `react-end-to-end-project-completed` branch of this repo. 
 
-Begin by **cloning** this repository onto your machine.
+Direct your students to this repo if they haven't been able to follow along the workshop, so they can work from this base to add extensions.
 
-## Resources
+## Using this repo
 
-Each separate resource is stored on a different branch of this repository.
+- `git clone`
+- `npm install`
+- `npm run dev`
 
-To access a resource, switch to the relevant branch.
-
-| Resource | Branch |
-| --- | --- |
-| Intro to React starter code | `react-spa-starter` |
-| React Props starter code | `react-props-starter` |
-| React Props completed code | `react-props-completed` |
-| React useEffect starter code | `react-useEffect-starter` |
-| React useEffect completed code | `react-useEffect-completed` |
-| React useEffect examples | `react-useEffect-examples` |
-| React Navigation starter code | `react-navigation-starter` |
-| React Navigation completed code | `react-navigation-completed` |
-| React Testing starter code | `react-testing-starter` |
-| React Testing completed code | `react-testing-completed` |
-| React useContext starter code | `react-useContext-starter` |
-| React useContext completed code | `react-useContext-completed` |
-| Redux starter code | `redux-starter` |
-| Redux completed code | `redux-completed` |
-| React end to end project | `react-end-to-end-project-completed` |
+This repo contains the complete code for the React End to End project
