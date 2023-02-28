@@ -7,13 +7,13 @@ const linkStyle = {
 
 export default function HomePage() {
   return (
-    <main>
+    <>
         <h1>Top TV</h1>
         <em>All about the smaller silver screen</em>
         <ul>
             <li><Link to="/shows" style={linkStyle}>Explore shows</Link></li>
             <li><Link to="/search" style={linkStyle}>Search your favorite show</Link></li>
         </ul>
-    </main>
+    </>
   )
 }

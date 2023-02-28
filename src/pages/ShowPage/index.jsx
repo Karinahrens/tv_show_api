@@ -18,8 +18,6 @@ export default function ShowPage() {
   }, []);
 
   return (
-    <main>
-      <ShowCard show={show}/>
-    </main>
+    <ShowCard show={show}/>
   )
 }

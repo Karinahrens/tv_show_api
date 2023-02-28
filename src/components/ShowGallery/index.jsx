@@ -16,10 +16,8 @@ export default function ShowGallery() {
   }, [])
 
   return (
-    <main>
-        <div className='shows'>
-            {shows.map((show) => <Link to={`${show.id}`} key={show.id}><GalleryImage show={show} /></Link>)}
-        </div>
-    </main>
+    <div className='shows'>
+      {shows.map((show) => <Link to={`${show.id}`} key={show.id}><GalleryImage show={show} /></Link>)}
+    </div>
   )
 };
