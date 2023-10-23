@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const linkStyle = {
-    color: '#FF731D'
+    color: '#FF731D',
 };
 
 export default function HomePage() {
@@ -12,7 +12,7 @@ export default function HomePage() {
         <em>All about the smaller silver screen</em>
         <ul>
             <li><Link to="/shows" style={linkStyle}>Explore shows</Link></li>
-            <li><Link to="/search" style={linkStyle}>Search your favorite show</Link></li>
+            <li><Link to="/search" style={linkStyle}>Search your favourite show</Link></li>
         </ul>
     </>
   )

@@ -1,11 +1,12 @@
 import React, {useState, useEffect} from 'react'
-import {ShowList} from '../';
+import { ShowList } from '../';
+import { Filter }  from '../';
 
 export default function SearchWidget() {
     const [inputValue, setInputValue] = useState("");
     
     const [showData, setShowData] = useState([]);
-    const [searchString, setSearchString] = useState("Married at First Sight");
+    const [searchString, setSearchString] = useState("Love");
 
 
     function handleInput(e) {
@@ -39,7 +40,8 @@ export default function SearchWidget() {
             <input type="text" onChange={handleInput} placeholder={searchString}
              value={inputValue} required/>
             <input type="submit" value="Search"/>
-        </form>
+            </form>
+        <Filter/>
         <ShowList showData={showData}/>
         </>
       )
